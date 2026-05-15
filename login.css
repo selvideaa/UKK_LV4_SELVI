@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #d2d9e0;; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px; 
+    padding: 50px 35px;
+    border-radius: 24px; 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05); 
+    text-align: center;
+}
+
+.logo-section img {
+    width: 110px; 
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.logo-section h1 {
+    font-size: 1.6rem;
+    color: #1a1a1a;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.logo-section p {
+    font-size: 0.95rem;
+    color: #888;
+    margin-bottom: 35px;
+}
+
+
+.login-card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px; 
+    padding: 45px 35px;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 8px;
+    margin-left: 4px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1.5px solid #ececec;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.input-group input:focus {
+    border-color: #b30000;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(0, 86, 179, 0.1);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 15px;
+    background-color: #b30000; 
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.1s, background 0.2s;
+    margin-top: 15px;
+}
+
+.btn-login:hover {
+    background-color: #b30000;
+}
+
+.btn-login:active {
+    transform: scale(0.98); 
+}
+
+.footer-link {
+    margin-top: 25px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.footer-link a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-link a:hover {
+    text-decoration: underline;
+}
+
+
+.error-msg {
+    background-color: #fff1f2;
+    color: #e11d48;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+    border: 1px solid #fda4af;
+}

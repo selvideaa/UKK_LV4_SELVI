@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background: #d2d9e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.register-card {
+    background: #ffffff;
+    padding: 30px 35px; 
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 400px; 
+    border: 1px solid #f0f0f0;
+}
+
+.header-section {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.header-section h2 {
+    font-size: 1.5rem; 
+    color: #111827;
+    font-weight: 700;
+}
+
+.header-section p {
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+.input-group {
+    margin-bottom: 12px; 
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.8rem; 
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 4px;
+}
+
+.input-group input, 
+.input-group select {
+    width: 100%;
+    padding: 10px 14px; 
+    border: 1.5px solid #e5e7eb;
+    border-radius: 10px;
+    background-color: #f9fafb;
+    font-size: 0.9rem; 
+    outline: none;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    border-color: #0056b3;
+    background-color: #fff;
+}
+
+.btn-register {
+    width: 100%;
+    padding: 12px; 
+    background-color: #b30000;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-register:hover {
+    background-color: #b30000;
+}
+
+.footer-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+.footer-link a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236b7280'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 14px;
+}
